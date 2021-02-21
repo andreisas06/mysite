@@ -1,20 +1,17 @@
-div {
-    background-color: #f6f6f6;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
 h1 {
-    margin-top: 0px;
+    width: 20%;
+    margin: 0 auto;
 }
 
 body {
     margin: 0;
+    text-align: center;
 }
 
 .top-container {
-    background-color: #f6f6f6;
+    background-color: #a1cae2;
+    position: relative;
+    padding-top: 100px;
 }
 
 .mid-container {
@@ -29,6 +26,21 @@ body {
     height: 200px;
 }
 
-.pro{
+.pro {
     text-decoration: underline;
+}
+
+.bottom-cloud {
+    margin: 20;
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    margin: 20;
+    padding-bottom: 20px;
+    position: absolute;
+    right: 300px;
+    top: 50px;
 }
